@@ -46,6 +46,7 @@ export function replaceWhereOperators(where) {
     gte: Op.gte,
     lt: Op.lt,
     lte: Op.lte,
+    eq: Op.eq,
     ne: Op.ne,
     between: Op.between,
     notBetween: Op.notBetween,
